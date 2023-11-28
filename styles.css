@@ -1,0 +1,33 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #272727;
+    overflow: hidden;
+    font-family: sans-serif;
+    color: white;
+}
+#inputBox {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    border: none;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.8);
+} */
+
+#chat-window {
+    position: absolute;
+    top: 10px; /* adjust as needed */
+    left: 10px; /* adjust as needed */
+    z-index: 1000; /* high value to ensure div is on top */
+    color: #39FF14; /* fluorescent green color */
+    text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14, 0 0 30px #39FF14, 0 0 40px #39FF14; /* glow effect */
+}
+
+#chat-window .chat-messages {
+    list-style-type: none;
+}
